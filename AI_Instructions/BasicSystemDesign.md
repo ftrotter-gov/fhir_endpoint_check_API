@@ -29,6 +29,7 @@ The results should be saved to a PostgreSQL SQL server whose password parameters
 * Always use cached results if available (last checked < 6 months)
 * Do not implement force-refresh functionality
 * Results should indicate whether data came from cache or fresh validation
+* The certificate data in a direct address certificate, as well as the testing meta-data for FHIR is independantly valuable and should also be kept in the database. 
 
 ## Auto-updates
 
