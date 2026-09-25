@@ -30,6 +30,12 @@ The results should be saved to a PostgreSQL SQL server whose password parameters
 * Do not implement force-refresh functionality
 * Results should indicate whether data came from cache or fresh validation
 
+## Auto-updates
+
+* Once a month has passed, each FHIR or Direct endpoint should be revalidated using cron.
+  
+
+
 ## Database Schema
 
 The table structure should be:
